@@ -1,0 +1,610 @@
+
+
+      body {
+        background: #D3D3D3;
+      }
+
+    p {
+      font-family: Open Sans, sans-serif;
+      color: #042D59;
+    }
+    h1, h2, h3 {
+      font-family: Merriweather, sans-serif !important;
+      color: #042D59;
+    }
+
+    h4 {
+      font-family: Open Sans, sans-serif;
+      color: #042D59;
+    }
+
+/*    #aboutDrG {
+      display:block;
+    }*/
+
+    #aboutDrG, #areasOfExpertise, #testimonials, #connect {
+      display:none;
+    }
+
+    .desktop {
+      display:none;
+    }
+  
+    #amazonlink {
+      text-decoration: none;
+    }
+
+    #booklink {
+      float:right;
+      max-height:250px;
+      margin-left:20px;
+    }
+
+    /*----------=============  Headline  =============--------*/
+
+
+
+    .pageHeader {
+      background:#042D59;
+      display:grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 2fr 3fr;
+      border-bottom:5px solid #FF663B;
+    }
+
+    div.contentwrapper {
+      box-shadow: 0 0 1.3em 0.3em #696969;
+        background-color: #fff;
+        margin: 2em auto 0;
+        overflow: hidden;
+        max-width: 1300px;
+        position: relative;
+        text-align: left
+    }
+
+
+    .headlineImage {
+      max-width:200px;
+    }
+
+    .maincontent {
+      background: white;
+      margin-bottom:1rem;
+    }
+
+    .maincontent>section {
+
+    }
+
+    .headlineContainer{
+      color:white;
+      max-height:250px;
+      max-width: 95%;
+      margin-left:5%;
+      margin-right:5%;
+      margin-bottom:1rem;
+ 
+    }
+
+    .head{
+      margin: 0;
+      color:white;
+      font-size: 2rem;
+      line-height: 2.5rem;
+      text-align:left;
+    }
+
+    .headlineText{
+
+      font-weight: 300;
+      text-align: center;
+    }
+
+nav ul {
+   list-style: none;
+   padding-left: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+ .nav {
+  margin-top:2%;
+   max-width:95%;
+   margin-left:2.5%;
+   margin-right:5%;
+
+}
+ .nav a {
+   color: white;
+   display: block;
+   padding: 0 8px;
+   line-height: 1.1rem;
+   cursor: pointer;
+   font-size:1rem;
+}
+
+ .nav__menu-item {
+}
+ .nav a:hover {
+   background-color: #046B99;
+}
+
+
+
+
+    /*----------=============  /Headline  =============--------*/
+
+    /*----------=============  Body content  =============--------*/
+
+    .homeInfo {
+      text-align:center;
+    }
+
+
+
+    .oneLineItem {
+      margin-top:1.5rem;
+    }
+
+
+
+    #homeArea {
+      padding-top:10px;
+      display:grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
+      background-image: url('https://d2ne8nk5ac9hp7.cloudfront.net/nhs/gerhauser/site/images/background.jpg');
+    }
+
+    /*Each of the collapsable sections*/
+    .collapsable {
+      padding-top:10px;
+      padding-bottom:10px;
+      padding-left:5em;
+      padding-right:5em;
+      background: #e3e8ee;
+      border-top: 2px solid #042D59;
+      border-bottom: 2px solid #042D59;
+    }
+
+    /*----------=============  /Body content  =============--------*/
+
+     /*----------============= Footer  =============--------*/
+
+	.linksFooter {
+    max-width:95%;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2.5%;
+    display:grid;
+		grid-template-columns: 3fr 3fr 4fr;
+    font-family:Open Sans, sans-serif;
+
+	}
+
+
+/*Lists in the footer*/
+  .social>ul, .contact>ul {
+    margin-left:0rem;
+    list-style-type:none;
+  }
+  .social>ul>li, .contact>ul>li {
+  }
+
+
+    .social>ul>li>a, .contact>ul>li>a {
+    text-decoration: none;
+    font-size:1.2rem;
+    color:black;
+    font-weight:500;
+
+  }
+
+
+
+ .social>ul li:nth-child(1) {
+     list-style-image: url('https://d2ne8nk5ac9hp7.cloudfront.net/nhs/gerhauser/site/images/facebook.svg');
+     margin-left:1.1rem;
+         font-size:2rem;
+ }
+
+  .social>ul li:nth-child(2) {
+     list-style-image: url('https://d2ne8nk5ac9hp7.cloudfront.net/nhs/gerhauser/site/images/linkedin.svg');
+     margin-left:1.1rem;
+         font-size:2rem;
+ }
+
+   .social>ul li:nth-child(3) {
+     list-style-image: url('https://d2ne8nk5ac9hp7.cloudfront.net/nhs/gerhauser/site/images/sun.svg');
+     margin-left:1.1rem;
+         font-size:2rem;
+ }
+
+  .contact>ul li:nth-child(1) {
+     list-style-image: url('https://d2ne8nk5ac9hp7.cloudfront.net/nhs/gerhauser/site/images/mail.svg');
+     margin-left:1.1rem;
+         font-size:2rem;
+ }
+
+ .contact>ul li:nth-child(2) {
+  list-style-image: url('https://d2ne8nk5ac9hp7.cloudfront.net/nhs/gerhauser/site/images/map.svg');
+  margin-left:1.1rem;
+      font-size:2rem;
+ }
+
+ .contact>ul li:nth-child(3) {
+  list-style-image: url('https://d2ne8nk5ac9hp7.cloudfront.net/nhs/gerhauser/site/images/phone.svg');
+  margin-left:1.1rem;
+      font-size:2rem;
+ }
+
+
+
+/*section headers within the footer*/
+  footer h4 {
+    color: #042D59;
+    font-size:1.5rem;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+/*Don't display the hamburger button unless on mobile*/
+.nav {
+  display: none;
+}
+
+      /*----------============= /Footer  =============--------*/
+
+    /*----------============= Queriers  =============--------*/
+
+
+    @media screen and (max-width:450px) {
+     .contact>ul li:nth-child(2) {
+          line-height:1.25rem;
+          margin-top:0.5rem;
+       }
+    }
+
+    @media screen and (max-width: 640px) {
+
+      .collapsable {
+        padding-left:2em;
+        padding-right:2em;
+      }
+      .linksFooter {
+        margin-left:2em;
+        margin-right:2em;
+      }
+      .headlineText {
+        text-align:left;
+      }
+
+      
+      #homeArea {
+        display:none;
+      }
+
+      footer h4 {
+        font-size:1rem;
+      }
+
+      div.contentwrapper {
+          max-width: 100%;
+          margin-top: 0;
+          border: none
+      }
+        .pageHeader {
+          display:grid;
+          grid-template-rows: 1fr;
+          grid-template-columns: 4fr 1fr;
+
+        }
+
+        .head {
+          font-size:1.4rem;
+          line-height:2rem;
+          margin-top: 1rem;
+          max-width:100%;
+        }
+
+        .headlineText>p {
+          font-size:0.75rem;
+        }
+
+    }
+
+
+      @media screen and (min-width: 640px){
+
+      .hamburger {
+        display:none;
+      }
+
+      .nav {
+        display:block;
+      }
+
+      }
+
+
+
+      
+      @media screen and (min-width: 640px) and (max-width: 768px) {
+
+        .collapsable {
+          padding-left:3em;
+          padding-right:3em;
+        }
+        .linksFooter {
+          margin-left:3em;
+          margin-right:3em;
+        }
+          header {
+            max-height: 110px;
+          }
+
+        .pageHeader {
+          display:grid;
+          grid-template-rows: 1fr;
+          grid-template-columns: 2fr 2fr;
+
+        }
+
+          .head {
+            max-width: 90%;
+            margin-top: 2.25rem;
+          }
+
+          .nav a {
+            font-size: 0.8rem;
+          }
+
+         .homePageImage {
+            max-width: 225px;
+            margin-left:10%;
+          }
+
+         .homeInfo {
+          margin-top: 17.5%;
+          margin-right:15%;
+          font-size:1.2rem;
+        }
+        .nav__menu {
+           line-height: 45px;
+           font-weight: 700;
+           text-transform: uppercase;
+           padding-bottom:0.5rem;
+           display:grid;
+           grid-template-rows: 30% 20%;
+           grid-template-columns: 1fr 1fr 1fr ;
+        }
+
+
+
+      }
+
+
+      @media screen and (min-width: 768px) and (max-width: 900px) {
+          .head {
+            max-width: 90%;
+            margin-top: 1.5rem;
+          }
+
+          .nav a {
+            font-size: 0.8rem;
+          }
+
+         .homePageImage {
+            max-width: 300px;
+            margin-left:10%;
+          }
+
+         .homeInfo {
+          margin-top: 10%;
+          margin-right:25%;
+          font-size:1.4rem;
+        }
+
+      }
+
+      @media screen and (min-width:640px) and (max-width:900px) {
+        footer h4 {
+          font-size:1.5rem;
+        }
+      }
+
+      @media screen and (max-width: 900px) {
+
+      .linksFooter {
+        grid-template-rows: 1fr;
+        grid-template-columns: 50% 1fr;
+      }
+
+      .social>ul li:nth-child(3) {
+        line-height:1rem;
+        margin-top: 0.75rem;
+      }
+
+      }
+
+      @media screen and (min-width: 768px) {
+        .nav__menu {
+           line-height: 45px;
+           font-weight: 700;
+           text-transform: uppercase;
+           padding-bottom:0.5rem;
+           display:grid;
+           grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+      }
+
+
+      @media screen and (min-width: 900px){
+
+      .head {
+        margin-top: 1.25rem;
+        max-width: 95%;
+      }
+
+        .deck{
+          font-size: 1.32rem;
+        }
+
+
+      .homeInfo {
+        margin-top: 10%;
+        margin-right:15%;
+        font-size:1.55rem;
+      }
+
+        .homePageImage {
+          max-width: 300px;
+          margin-left:30%;
+        }
+
+        .desktop {
+          display: block;
+        }
+
+
+      }
+
+      @media screen and (min-width: 1000px) {
+        .homeInfo {
+          font-size: 1.75rem;
+        }
+
+      }
+
+   
+
+
+    /*----------=============  /Queries  =============--------*/
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 35%;
+  left: 30%;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle p
+{
+  text-decoration: none;
+  color: #042D59;
+  transition: color 0.3s ease;
+}
+
+#menuToggle p:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 35px;
+  height: 4px;
+  margin-bottom: 6px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, 2px);
+  background: #042D59;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(-2px, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  width: 120%;
+  margin: -62px 0 0 -125%;
+  padding-left: 30%;
+  padding-right: 40%;
+  padding-top: 75%;
+  background: #e3e8ee;
+  border: 2px solid #042D59;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  font-family:Open Sans, sans-serif;
+  font-size: 1.1rem;
+  font-weight:bold;
+  color: #042D59;
+  text-align:left;
+}
+
+#menu li:hover {
+   background-color: #046B99;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+  

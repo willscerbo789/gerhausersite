@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+
+    <meta charset="utf-8" /> <!-- for working locally -->
+    <meta name="description" content="Dr. Gerhauser is a board-certified natural medicine physician, lecturer, and researcher. He serves as a clinical assistant professor at the University of Arizona College of Medicine.">
+    <meta name="author" content="Dr. Richard Gerhauser">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Dr. Richard Gerhauser</title>
+
+
+    <!--=====  CSS ====-->
+    <link rel="stylesheet" type="text/css" href="C:\Users\Will Scerbo\Desktop\Dr. G website project\css\stylesheet.css" />
+    <!--=====  / CSS ====-->
+</head>
+<body>
+
+<div class="contentwrapper">
+
+
+<!-- Start Header -->
+<header class = "pageHeader">
+<!-- Header Image -->
+<div class="headlineContainer">
+<div style = "margin-top: 0rem"class="headlineText">
+<img class = "head" data-src = "https://d2ne8nk5ac9hp7.cloudfront.net/nhs/gerhauser/site/images/DrGerhauser-logo.png">
+</div>
+</div>
+<!-- Navigation Bar -->
+<nav class="nav">
+    <div class="nav__menu">
+        <p onclick = "sectionToggle(1)" class="nav__menu-item oneLineItem"><a>Home</a></p>
+        <p onclick = "sectionToggle(2)" class="nav__menu-item"><a>Meet Dr. Gerhauser </a>
+        </p>
+        <p onclick = "sectionToggle(3)" class="nav__menu-item"><a>Areas of Expertise</a>
+        </p>
+        <p onclick = "sectionToggle(4)" class="nav__menu-item oneLineItem"><a>Testimonials</a></p>
+          <p onclick = "sectionToggle(5)" class="nav__menu-item oneLineItem"><a>Connect</a></p>
+    </div>
+</nav>
+<!-- Hamburger button -->
+<div class = "hamburger">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <!-- Hamburger navigation bar -->
+    <ul id="menu">
+      <p class = "nav__menu-item"><li onclick = "sectionToggle(1)">Home</li></p>
+      <p class = "nav__menu-item"><li onclick = "sectionToggle(2)">Meet Dr. Gerhauser</li></p>
+      <p class = "nav__menu-item"><li onclick = "sectionToggle(3)">Areas of Expertise</li></p>
+      <p class = "nav__menu-item"><li onclick = "sectionToggle(4)">Testimonials</li></p>
+      <p class = "nav__menu-item"><li onclick = "sectionToggle(5)">Connect</li></p>
+    </ul>
+  </div>
+</div>
+</header>
+<!-- End Header -->
+
+<!-- Start Body -->
+<div class="maincontent">
+        <section id = "homeArea"> 
+          <img class = "homePageImage" src = "https://d2ne8nk5ac9hp7.cloudfront.net/nhs/gerhauser/site/images/gerhauser-268x300.png">
+          <h3 class = "homeInfo"><em>Dr. Richard Gerhauser, M.D.,<br class = "desktop"/>
+                                 a Preventative Medicine Specialist, <br class = "desktop"/>
+                                 is one of the most innovative <br class = "desktop"/>
+                                 minds in medicine today</em>.
+          </h3>
+        </section>
+        <section class = "collapsable" id = "aboutDrG">
+            <h3>Meet Dr. Richard Gerhauser</h3>
+            <p>For years Dr. Richard Gerhauser, M.D. has been the trusted doctor for celebrities, world-class athletes, and countless seniors looking to reclaim their health. Dr. Richard Gerhauser is one of the most pioneering and innovative minds in medicine today – and he delivers cutting-edge cures to his patients daily at his private practice in Tucson, Arizona and each month through his Natural Health Response newsletter.</p>
+            <p>In addition to being a board-certified medical doctor, Dr. Richard Gerhauser has earned two master’s degrees and has served as a clinical professor at the University of Arizona. And as a physician at the world-famous Canyon Ranch, Dr. Richard Gerhauser treated celebrities from around the world who paid dearly for the type of next-generation health information he provides Natural Health Response readers each month.</p>
+        </section>
+        <section class = "collapsable" id = "areasOfExpertise">
+        <h3>Areas of Expertise</h3>
+        <p>Modern life has many positive aspects but at the same we are faced with a plethora of new epidemic diseases for which mainstream medicine has few answers. Dr. Richard Gerhauser believes one of the root causes of modern disease is environmental exposures that interfere with recently discovered quantum effects that play key roles in life. This may be where the answer lies to solve current health crises like type 2 diabetes, cancer, neurodegenerative diseases, autoimmune diseases, mental disorders, arthritis, chronic pain, cardiovascular disease and obesity. You can wait for mainstream medicine to explore this, but don't hold your breath, medicine changes paradigms very slowly. Mainstream medicine is stuck on the reductionist model that has poor results for our degenerative disease explosion. Dr. Richard Gerhauser, a Preventive Medicine Specialist, delivers cutting-edge cures for a wide variety of diseases to his patients at his private practice in Tucson, Arizona. </p>
+    </section>
+
+        <section class = "collapsable" id="testimonials">
+          <h3>Patient Testimonials</h3>
+           <p><em>“There are other ways to treat diseases other than chemo and radiation. I appreciate Dr. Richard Gerhauser's methods and sharing to help others, and yes he is a Christian.”</em></p>
+
+         <p><em>“Dr. Gerhauser is absolutely first-class. He’s the best doctor I’ve ever met. He practices the lifestyle he preaches, and helps get to the bottom of health issues. He doesn't just rush to put you on some prescription drug.”</em></p>
+
+         <p><em>“Though I don't have a diagnosis yet, on my first appointment with him he was very thorough with his questions and all the labs and x-rays that he ordered. He even asked me if there was anything else I wanted to be tested for because he didn't want to take any chances. He made a great first impression on me, I'll definitely keep my follow up appointment.”</em></p>
+
+         <p><em>“He is very knowledgable and willing to go outside of mainstream medicine and take a more functional approach. Tested me for various conditions and diagnosed an autoimmune thyroid disease. Gave me suggestions and options to treat the Underlying problem, not just the symptoms. He practices what he preaches as far as lifestyle and diet changes. Great bedside manner. His medical assistant is great too.”</em></p>
+
+        </section>
+
+        <section class = "collapsable" id="connect">
+          <h3>Find Dr. Gerhauser's Book on <a id = "amazonlink" target = "_blank" href='https://www.amazon.com/Steps-Natural-Health-Richard-Gerhauser-ebook/dp/B008RBH7FA/ref=sr_1_6?dchild=1&keywords=richard+gerhauser&qid=1587757457&sr=8-6'>Amazon</a></h3>
+          <img id = "booklink" src="https://d2ne8nk5ac9hp7.cloudfront.net/nhs/gerhauser/site/images/gerhauser_book.jpg" alt="book">
+          <p>Degenerative diseases like cancer, heart disease, stroke, arthritis, diabetes, Alzheimer’s disease, autoimmune diseases, obesity and osteoporosis have become the new plague. Our failed medical system is the leading cause of death in our society closely followed by the degenerative diseases. You, or someone in your immediate family, will needlessly experience untold suffering and early death. New evidence suggests that life expectancy may have peaked and new generations will have a shorter, more disease-filled life. This book reveals how you can change this tragic trend by following the recommendations of Richard Gerhauser, MD, MS, MPH, FACSM, FACPM. </p>
+          <p>By following the advice in this book you can avoid the loss of health and sidestep the traps that abound in our path. Dr. Gerhauser will show you how to circumvent our profoundly dangerous healthcare system. Most modern health treatments have been developed in a profit-driven paradigm which completely avoids the most important questions: What is the most effective, safest and cost-effective treatment? He gives examples of common medical conditions that are inappropriately treated with side-effect-laden drugs instead of dealing with the root-cause of the problem. Vested interests now have control of research, legislation, medical training and the policing institutions so that both healthcare providers and patients will never learn the truth.</p>
+          <h3>Dr. Gerhauser on YouTube</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLzwahU2YjUTAQGqf9rGzT_iQS8bWaB7a_" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </section>
+</p>
+
+
+</div>
+
+<footer class = "linksFooter">
+	<div class = "social">
+		<h4><b>Social Media</b></h4>
+    <ul>
+		<li><a href="https://www.facebook.com/DrGerhauser/">Facebook</a></li>
+		<li><a href="https://www.linkedin.com/in/drgerhauser/">Linkedin</a></li>
+		<li><a href="https://gerhauserhealth.com/">Gerhauser Health</a></li>
+  </ul>
+
+	</div>
+	<div class = "contact">
+
+			<h4><b>Contact</b></h4>
+      <ul>
+			<li><a href="mailto:support@gerhauserhealth.com">Email</a></li>
+			<li><a href='https://goo.gl/maps/ZMYqXPW7eiGDMPkFA'>Google Maps</a></li>
+			<li><a href='tel:520-733-2250'>Phone</a></li>
+    </ul>
+
+	</div>
+  <div class = "googleMaps">
+    <h4><b>Location</b></h4>
+    <iframe id = "googlemap" width="350" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=32.2497%2C-110.8773&key=AIzaSyCbqocQi0bpeZc6mqYDBWUropewmNFWyjM" allowfullscreen></iframe>
+
+  </div>
+</footer>
+
+
+
+</div>
+
+
+
+<script src="https://d2ne8nk5ac9hp7.cloudfront.net/global/lazyload.js" rel="preconnect"></script>
+
+<script>
+     // lazy load images
+
+     //declare new lazyLoad instance with options
+     var Lazy = new LazyLoad({
+       data_src: 'src',
+       threshold: 3000,
+       callback_load: function(){
+         console.log('element loaded');
+       },
+       callback_error: function(){
+         console.log('error with lazy loading images...');
+       }
+     });
+
+</script>
+
+</body></html>
+<script>
+  function sectionToggle(n) {
+    if (n == 1) {
+      document.getElementById("aboutDrG").style.display = 'none';
+      document.getElementById("areasOfExpertise").style.display = 'none';
+      document.getElementById("testimonials").style.display = 'none';
+      document.getElementById("connect").style.display = 'none';
+    } else if (n == 2) {
+      document.getElementById("aboutDrG").style.display = 'block';
+      document.getElementById("areasOfExpertise").style.display = 'none';
+      document.getElementById("testimonials").style.display = 'none';
+      document.getElementById("connect").style.display = 'none';
+    } else if (n == 3) {
+      document.getElementById("aboutDrG").style.display = 'none';
+      document.getElementById("areasOfExpertise").style.display = 'block';
+      document.getElementById("testimonials").style.display = 'none';
+      document.getElementById("connect").style.display = 'none';
+    } else if (n == 4) {
+      document.getElementById("aboutDrG").style.display = 'none';
+      document.getElementById("areasOfExpertise").style.display = 'none';
+      document.getElementById("testimonials").style.display = 'block';
+      document.getElementById("connect").style.display = 'none';
+    } else if (n == 5) {
+      document.getElementById("aboutDrG").style.display = 'none';
+      document.getElementById("areasOfExpertise").style.display = 'none';
+      document.getElementById("testimonials").style.display = 'none';
+      document.getElementById("connect").style.display = 'block';
+    }
+  }
+
+
+  var vw = Math.max(document.documentElement.clientWidth,window.innerWidth||0);
+  console.log(vw)
+  if(vw<640){
+    var gmap=document.getElementById("googlemap");
+    gmap.width = 275;
+    gmap.height = 250;
+  }
+</script>
