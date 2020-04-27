@@ -18,11 +18,11 @@
       color: #042D59;
     }
 
-/*    #aboutDrG {
+    #aboutDrG {
       display:block;
-    }*/
+    }
 
-    #aboutDrG, #areasOfExpertise, #testimonials, #connect {
+    #areasOfExpertise, #testimonials, #connect {
       display:none;
     }
 
@@ -110,7 +110,7 @@ nav ul {
  .nav {
   margin-top:2%;
    max-width:95%;
-   margin-left:2.5%;
+  margin-left: 2.5%;
    margin-right:5%;
 
 }
@@ -350,6 +350,10 @@ nav ul {
 
         }
 
+        .nav {
+          margin-left:0rem;
+        }
+
           .head {
             max-width: 90%;
             margin-top: 2.25rem;
@@ -481,130 +485,125 @@ nav ul {
 
     /*----------=============  /Queries  =============--------*/
 
-#menuToggle
-{
-  display: block;
-  position: relative;
-  top: 35%;
-  left: 30%;
-  z-index: 1;
-  -webkit-user-select: none;
-  user-select: none;
-}
+    #menuToggle
+    {
+      display: block;
+      position: relative;
+      top: 35%;
+      left: 30%;
+      z-index: 1;
+      -webkit-user-select: none;
+      user-select: none;
+    }
 
-#menuToggle p
-{
-  text-decoration: none;
-  color: #042D59;
-  transition: color 0.3s ease;
-}
+    #menuToggle p
+    {
+      text-decoration: none;
+      color: #042D59;
+      transition: color 0.3s ease;
+    }
 
-#menuToggle p:hover
-{
-  color: tomato;
-}
+    #menuToggle p:hover
+    {
+      color: tomato;
+    }
 
 
-#menuToggle input
-{
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  cursor: pointer;
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
-}
+      #menuToggle input
+      {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0; /* hide this */
+        z-index: 2; /* place it over the hamburger */
+        -webkit-touch-callout: none;
+      }
 
-/*
- * Just a quick hamburger
- */
-#menuToggle span
-{
-  display: block;
-  width: 35px;
-  height: 4px;
-  margin-bottom: 6px;
-  position: relative;
-  
-  background: #cdcdcd;
-  border-radius: 3px;
-  
-  z-index: 1;
-  
-  transform-origin: 4px 0px;
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
 
-#menuToggle span:first-child
-{
-  transform-origin: 0% 0%;
-}
+      #menuToggle span
+      {
+        display: block;
+        width: 35px;
+        height: 4px;
+        margin-bottom: 6px;
+        position: relative;
+        
+        background: #cdcdcd;
+        border-radius: 3px;
+        
+        z-index: 1;
+        
+        transform-origin: 4px 0px;
+        
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    opacity 0.55s ease;
+      }
 
-#menuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
+      #menuToggle span:first-child
+      {
+        transform-origin: 0% 0%;
+      }
 
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, 2px);
-  background: #042D59;
-}
+      #menuToggle span:nth-last-child(2)
+      {
+        transform-origin: 0% 100%;
+      }
 
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(-2px, -1px);
-}
+      #menuToggle input:checked ~ span
+      {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, 2px);
+        background: #042D59;
+      }
 
-#menu
-{
-  position: absolute;
-  width: 120%;
-  margin: -62px 0 0 -125%;
-  padding-left: 30%;
-  padding-right: 40%;
-  padding-top: 75%;
-  background: #e3e8ee;
-  border: 2px solid #042D59;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
-  transform-origin: 0% 0%;
-  transform: translate(100%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
+      #menuToggle input:checked ~ span:nth-last-child(3)
+      {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+      }
+      #menuToggle input:checked ~ span:nth-last-child(2)
+      {
+        transform: rotate(-45deg) translate(-2px, -1px);
+      }
 
-#menu li
-{
-  font-family:Open Sans, sans-serif;
-  font-size: 1.1rem;
-  font-weight:bold;
-  color: #042D59;
-  text-align:left;
-}
+      #menu
+      {
+        position: absolute;
+        width: 120%;
+        margin: -62px 0 0 -125%;
+        padding-left: 30%;
+        padding-right: 40%;
+        padding-top: 75%;
+        background: #e3e8ee;
+        border: 2px solid #042D59;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(100%, 0);
+        
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+      }
 
-#menu li:hover {
-   background-color: #046B99;
-}
+      #menu li
+      {
+        font-family:Open Sans, sans-serif;
+        font-size: 1.1rem;
+        font-weight:bold;
+        color: #042D59;
+        text-align:left;
+      }
 
-#menuToggle input:checked ~ ul
-{
-  transform: none;
-}
-  
+      #menu li:hover {
+         background-color: #046B99;
+      }
+
+      #menuToggle input:checked ~ ul
+      {
+        transform: none;
+      }
+        
